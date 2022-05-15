@@ -211,6 +211,31 @@ span, .article__p{
 }
 /**end of section 5 top footer**/
 
+/**last section bottom footer start here**/
+.bottom__footer{
+    padding: 2rem 0;
+    color: #fff;
+    background-color: #000;
+}
+
+.bottom__footer_text{
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 100px;
+}
+
+.bottom__footer__link{
+    text-decoration: none;
+    color: #2690d4;
+}
+
+@media (max-width: 700px) {
+    .bottom__footer_text{
+        flex-wrap: wrap;
+        flex-direction: column; 
+    }
+}
+
 
 
 
