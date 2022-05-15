@@ -105,6 +105,14 @@ img{
     line-height: 1.5rem;
     columns: 2;
 }
+@media (max-width: 700px) {
+    .section__2_p{
+        padding-top: 1rem;
+        font-size: 1rem;
+        columns:unset;
+    }
+}
+
 /**end of section 2**/
 
 /**start of section 3**/
