@@ -170,7 +170,51 @@ img{
 }
 /** end of section 4**/
 
-    
+/**start of section 5 top footer**/
+.top__footer{
+    display: flex;
+    width: 100%;
+}
+.article__one{
+    background-color: #2690d4;
+    color: #fff; 
+    width: 50%;
+    padding: 2em;
+    color: #fff;
+}
+
+.article__two{
+    color: #fff;
+    width: 50%;
+    padding: 2em;
+}
+
+.article__h1{
+    padding: 3rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+span, .article__p{
+    margin: 0;
+    padding: 1em 0
+}
+
+@media (max-width: 700px) {
+    .top__footer{
+        flex-wrap: wrap;
+        flex-direction: column; 
+    }
+    .article__one, .article__two{
+        width: 100%;
+        max-width: none;
+    }
+}
+/**end of section 5 top footer**/
+
+
+
+
+
         
 
     
