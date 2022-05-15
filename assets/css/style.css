@@ -154,6 +154,22 @@ img{
     }
 }
 /**end of section 3**/
+
+/**start of section 4**/
+.section__4{
+    background-color: #fff;
+    padding: 2rem 0;
+    color: #333;
+}
+.section__4_heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.section__4_paragraph{
+    padding-top: 2rem;
+}
+/** end of section 4**/
+
     
         
 
